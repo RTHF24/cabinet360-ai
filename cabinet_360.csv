@@ -1,0 +1,1000 @@
+﻿id_facture;id_groupe_client;nom_groupe_client;id_entreprise;nom_entreprise;secteur_activite;region;pays;statut_prestation;date_realisation_service;date_facture;date_limite_paiement;date_paiement;service;id_commercial;id_collaborateur;statut_client;statut_paiement;revenue_ht;montant_tva;montant_facture_ttc;nb_factures;tva_traitees;bulletins_de_paie;bilans_traites;ecritures_comptables;gl_controles;frais_abonnement;jours_retard
+F0001;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;10/1/2024;14/1/2024;13/2/2024;22/1/2024;Fiscalité;Sales 3;Collaborateur 23;Active;Paid;1564;313;1877;1;0;0;0;70;8;159;0
+F0002;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;18/1/2024;21/1/2024;20/2/2024;1/3/2024;TVA;Sales 4;Collaborateur 23;Active;Late;768;154;922;1;1;0;0;22;5;128;10
+F0003;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;29/12/2023;4/1/2024;3/2/2024;14/1/2024;Révision;Sales 1;Collaborateur 9;Active;Paid;1535;307;1842;1;0;0;0;94;12;162;0
+F0004;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;3/1/2024;11/1/2024;10/2/2024;22/1/2024;Bilan;Sales 2;Collaborateur 19;Active;Paid;3552;710;4262;1;0;0;1;152;19;211;0
+F0005;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;15/1/2024;18/1/2024;17/2/2024;30/1/2024;Paie;Sales 3;Collaborateur 19;Active;Paid;1525;305;1830;1;0;15;0;38;9;170;0
+F0006;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;21/1/2024;25/1/2024;24/2/2024;7/2/2024;Fiscalité;Sales 4;Collaborateur 4;Active;Paid;2049;410;2459;1;0;0;0;90;13;204;0
+F0007;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;5/1/2024;8/1/2024;7/2/2024;22/2/2024;TVA;Sales 1;Collaborateur 4;Active;Late;1253;251;1504;1;1;0;0;27;4;173;15
+F0008;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;9/1/2024;15/1/2024;14/2/2024;30/1/2024;Révision;Sales 2;Collaborateur 16;Active;Paid;1903;381;2284;1;0;0;0;119;17;207;0
+F0009;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;14/1/2024;22/1/2024;21/2/2024;7/2/2024;Bilan;Sales 3;Collaborateur 25;Active;Paid;4192;838;5030;1;0;0;1;182;24;256;0
+F0010;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;2/1/2024;5/1/2024;4/2/2024;22/1/2024;Paie;Sales 4;Collaborateur 25;Active;Paid;1748;350;2098;1;0;25;0;48;6;215;0
+F0011;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;8/1/2024;12/1/2024;11/2/2024;30/1/2024;Fiscalité;Sales 1;Collaborateur 12;Active;Paid;2689;538;3227;1;0;0;0;110;6;249;0
+F0012;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;16/1/2024;19/1/2024;18/2/2024;9/3/2024;TVA;Sales 2;Collaborateur 12;Active;Late;1622;324;1946;1;1;0;0;32;3;218;20
+F0013;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;20/1/2024;26/1/2024;25/2/2024;15/2/2024;Révision;Sales 3;Collaborateur 21;Active;Paid;2388;478;2866;1;0;0;0;144;22;252;0
+F0014;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;1/1/2024;9/1/2024;8/2/2024;30/1/2024;Bilan;Sales 4;Collaborateur 7;Active;Paid;4551;910;5461;1;0;0;1;212;29;301;0
+F0015;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;13/1/2024;16/1/2024;15/2/2024;7/2/2024;Paie;Sales 1;Collaborateur 7;Active;Paid;2117;423;2540;1;0;5;0;58;3;260;0
+F0016;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;18/2/2024;26/2/2024;27/3/2024;4/3/2024;Bilan;Sales 4;Collaborateur 4;Active;Paid;3316;663;3979;1;0;0;1;142;17;184;0
+F0017;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;6/2/2024;9/2/2024;10/3/2024;17/2/2024;Paie;Sales 1;Collaborateur 4;Active;Paid;1144;229;1373;1;0;10;0;35;7;143;0
+F0018;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;12/2/2024;16/2/2024;17/3/2024;25/2/2024;Fiscalité;Sales 2;Collaborateur 16;Active;Paid;1813;363;2176;1;0;0;0;84;11;177;0
+F0019;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;20/2/2024;23/2/2024;24/3/2024;2/4/2024;TVA;Sales 3;Collaborateur 16;Active;Late;1018;204;1222;1;1;0;0;26;2;146;9
+F0020;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;31/1/2024;6/2/2024;7/3/2024;17/2/2024;Révision;Sales 4;Collaborateur 25;Active;Paid;1929;386;2315;1;0;0;0;108;15;180;0
+F0021;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;5/2/2024;13/2/2024;14/3/2024;25/2/2024;Bilan;Sales 1;Collaborateur 12;Active;Paid;3801;760;4561;1;0;0;1;172;22;229;0
+F0022;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;17/2/2024;20/2/2024;21/3/2024;4/3/2024;Paie;Sales 2;Collaborateur 12;Active;Paid;1512;302;1814;1;0;20;0;45;4;188;0
+F0023;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;23/2/2024;27/2/2024;28/3/2024;12/3/2024;Fiscalité;Sales 3;Collaborateur 21;Active;Paid;2182;436;2618;1;0;0;0;104;16;222;0
+F0024;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;7/2/2024;10/2/2024;11/3/2024;25/3/2024;TVA;Sales 4;Collaborateur 21;Active;Late;1658;332;1990;1;1;0;0;31;7;191;14
+F0025;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;11/2/2024;17/2/2024;18/3/2024;4/3/2024;Révision;Sales 1;Collaborateur 7;Active;Paid;2152;430;2582;1;0;0;0;133;20;225;0
+F0026;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;16/2/2024;24/2/2024;25/3/2024;12/3/2024;Bilan;Sales 2;Collaborateur 18;Active;Paid;4442;888;5330;1;0;0;1;202;27;274;0
+F0027;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;4/2/2024;7/2/2024;8/3/2024;25/2/2024;Paie;Sales 3;Collaborateur 18;Active;Paid;1997;399;2396;1;0;30;0;55;9;233;0
+F0028;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;10/2/2024;14/2/2024;15/3/2024;4/3/2024;Fiscalité;Sales 4;Collaborateur 27;Active;Paid;2667;533;3200;1;0;0;0;124;9;267;0
+F0029;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;18/2/2024;21/2/2024;22/3/2024;10/4/2024;TVA;Sales 1;Collaborateur 27;Active;Late;1900;380;2280;1;1;0;0;36;6;236;19
+F0030;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;29/1/2024;4/2/2024;5/3/2024;25/2/2024;Révision;Sales 2;Collaborateur 14;Active;Paid;2521;504;3025;1;0;0;0;158;10;270;0
+F0031;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;11/3/2024;14/3/2024;13/4/2024;5/4/2024;TVA;Sales 1;Collaborateur 25;Active;Paid;1016;203;1219;1;1;0;0;25;6;119;0
+F0032;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;15/3/2024;21/3/2024;20/4/2024;12/5/2024;Révision;Sales 2;Collaborateur 12;Active;Late;1806;361;2167;1;0;0;0;97;13;153;22
+F0033;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;25/2/2024;4/3/2024;3/4/2024;12/3/2024;Bilan;Sales 3;Collaborateur 21;Active;Paid;3886;777;4663;1;0;0;1;162;20;202;0
+F0034;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;8/3/2024;11/3/2024;10/4/2024;20/3/2024;Paie;Sales 4;Collaborateur 21;Active;Paid;1646;329;1975;1;0;15;0;42;10;161;0
+F0035;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;14/3/2024;18/3/2024;17/4/2024;28/3/2024;Fiscalité;Sales 1;Collaborateur 7;Active;Paid;2486;497;2983;1;0;0;0;98;14;195;0
+F0036;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;22/3/2024;25/3/2024;24/4/2024;5/4/2024;TVA;Sales 2;Collaborateur 7;Active;Paid;1396;279;1675;1;1;0;0;30;5;164;0
+F0037;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;2/3/2024;8/3/2024;7/4/2024;16/4/2024;Révision;Sales 3;Collaborateur 18;Active;Late;2186;437;2623;1;0;0;0;122;18;198;9
+F0038;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;7/3/2024;15/3/2024;14/4/2024;28/3/2024;Bilan;Sales 4;Collaborateur 27;Active;Paid;4266;853;5119;1;0;0;1;192;25;247;0
+F0039;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;19/3/2024;22/3/2024;21/4/2024;5/4/2024;Paie;Sales 1;Collaborateur 27;Active;Paid;2306;461;2767;1;0;25;0;52;7;206;0
+F0040;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;1/3/2024;5/3/2024;4/4/2024;20/3/2024;Fiscalité;Sales 2;Collaborateur 14;Active;Paid;2716;543;3259;1;0;0;0;118;7;240;0
+F0041;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;9/3/2024;12/3/2024;11/4/2024;28/3/2024;TVA;Sales 3;Collaborateur 14;Active;Paid;2176;435;2611;1;1;0;0;35;4;209;0
+F0042;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;13/3/2024;19/3/2024;18/4/2024;2/5/2024;Révision;Sales 4;Collaborateur 23;Active;Late;2686;537;3223;1;0;0;0;147;8;243;14
+F0043;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;18/3/2024;26/3/2024;25/4/2024;13/4/2024;Bilan;Sales 1;Collaborateur 9;Active;Paid;4646;929;5575;1;0;0;1;222;30;292;0
+F0044;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;6/3/2024;9/3/2024;8/4/2024;28/3/2024;Paie;Sales 2;Collaborateur 9;Active;Paid;2556;511;3067;1;0;5;0;62;4;251;0
+F0045;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;12/3/2024;16/3/2024;15/4/2024;5/4/2024;Fiscalité;Sales 3;Collaborateur 19;Active;Paid;3096;619;3715;1;0;0;0;138;12;285;0
+F0046;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;23/4/2024;26/4/2024;26/5/2024;17/5/2024;Paie;Sales 2;Collaborateur 7;Active;Paid;1193;239;1432;1;0;10;0;39;8;134;0
+F0047;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;5/4/2024;9/4/2024;9/5/2024;1/5/2024;Fiscalité;Sales 3;Collaborateur 18;Active;Paid;1883;377;2260;1;0;0;0;92;12;168;0
+F0048;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;13/4/2024;16/4/2024;16/5/2024;23/4/2024;TVA;Sales 4;Collaborateur 18;Active;Paid;1063;213;1276;1;1;0;0;29;3;137;0
+F0049;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;17/4/2024;23/4/2024;23/5/2024;13/6/2024;Révision;Sales 1;Collaborateur 27;Active;Late;1853;371;2224;1;0;0;0;111;16;171;21
+F0050;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;29/3/2024;6/4/2024;6/5/2024;15/4/2024;Bilan;Sales 2;Collaborateur 14;Active;Paid;3963;793;4756;1;0;0;1;182;23;220;0
+F0051;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;10/4/2024;13/4/2024;13/5/2024;23/4/2024;Paie;Sales 3;Collaborateur 14;Active;Paid;1573;315;1888;1;0;20;0;49;5;179;0
+F0052;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;16/4/2024;20/4/2024;20/5/2024;1/5/2024;Fiscalité;Sales 4;Collaborateur 23;Active;Paid;2263;453;2716;1;0;0;0;112;17;213;0
+F0053;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;24/4/2024;27/4/2024;27/5/2024;9/5/2024;TVA;Sales 1;Collaborateur 23;Active;Paid;1443;289;1732;1;1;0;0;34;2;182;0
+F0054;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;4/4/2024;10/4/2024;10/5/2024;18/5/2024;Révision;Sales 2;Collaborateur 9;Active;Late;2513;503;3016;1;0;0;0;136;21;216;8
+F0055;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;9/4/2024;17/4/2024;17/5/2024;1/5/2024;Bilan;Sales 3;Collaborateur 19;Active;Paid;4313;863;5176;1;0;0;1;212;28;265;0
+F0056;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;21/4/2024;24/4/2024;24/5/2024;9/5/2024;Paie;Sales 4;Collaborateur 19;Active;Paid;2353;471;2824;1;0;30;0;59;10;224;0
+F0057;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;3/4/2024;7/4/2024;7/5/2024;23/4/2024;Fiscalité;Sales 1;Collaborateur 4;Active;Paid;2643;529;3172;1;0;0;0;132;10;258;0
+F0058;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;11/4/2024;14/4/2024;14/5/2024;1/5/2024;TVA;Sales 2;Collaborateur 4;Active;Paid;1823;365;2188;1;1;0;0;39;7;227;0
+F0059;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;15/4/2024;21/4/2024;21/5/2024;3/6/2024;Révision;Sales 3;Collaborateur 16;Active;Late;2763;553;3316;1;0;0;0;161;11;261;13
+F0060;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;27/3/2024;4/4/2024;4/5/2024;23/4/2024;Bilan;Sales 4;Collaborateur 25;Active;Paid;4693;939;5632;1;0;0;1;242;15;310;0
+F0061;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;8/5/2024;14/5/2024;13/6/2024;3/6/2024;Révision;Sales 3;Collaborateur 14;Active;Paid;1610;322;1932;1;0;0;0;100;14;144;0
+F0062;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;13/5/2024;21/5/2024;20/6/2024;6/7/2024;Bilan;Sales 4;Collaborateur 23;Active;Late;3690;738;4428;1;0;0;1;172;21;193;16
+F0063;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;1/5/2024;4/5/2024;3/6/2024;26/5/2024;Paie;Sales 1;Collaborateur 23;Active;Paid;1450;290;1740;1;0;15;0;46;3;152;0
+F0064;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;7/5/2024;11/5/2024;10/6/2024;18/5/2024;Fiscalité;Sales 2;Collaborateur 9;Active;Paid;2020;404;2424;1;0;0;0;106;15;186;0
+F0065;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;15/5/2024;18/5/2024;17/6/2024;26/5/2024;TVA;Sales 3;Collaborateur 9;Active;Paid;1350;270;1620;1;1;0;0;33;6;155;0
+F0066;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;19/5/2024;25/5/2024;24/6/2024;3/6/2024;Révision;Sales 4;Collaborateur 19;Active;Paid;1990;398;2388;1;0;0;0;125;19;189;0
+F0067;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;30/4/2024;8/5/2024;7/6/2024;28/6/2024;Bilan;Sales 1;Collaborateur 4;Active;Late;4070;814;4884;1;0;0;1;202;26;238;21
+F0068;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;12/5/2024;15/5/2024;14/6/2024;26/5/2024;Paie;Sales 2;Collaborateur 4;Active;Paid;1830;366;2196;1;0;25;0;56;8;197;0
+F0069;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;18/5/2024;22/5/2024;21/6/2024;3/6/2024;Fiscalité;Sales 3;Collaborateur 16;Active;Paid;2800;560;3360;1;0;0;0;126;8;231;0
+F0070;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;2/5/2024;5/5/2024;4/6/2024;18/5/2024;TVA;Sales 4;Collaborateur 16;Active;Paid;1700;340;2040;1;1;0;0;38;5;200;0
+F0071;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;6/5/2024;12/5/2024;11/6/2024;26/5/2024;Révision;Sales 1;Collaborateur 25;Active;Paid;2650;530;3180;1;0;0;0;150;9;234;0
+F0072;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;11/5/2024;19/5/2024;18/6/2024;26/6/2024;Bilan;Sales 2;Collaborateur 12;Active;Late;4450;890;5340;1;0;0;1;232;31;283;8
+F0073;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;23/5/2024;26/5/2024;25/6/2024;11/6/2024;Paie;Sales 3;Collaborateur 12;Active;Paid;2210;442;2652;1;0;5;0;66;5;242;0
+F0074;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;5/5/2024;9/5/2024;8/6/2024;26/5/2024;Fiscalité;Sales 4;Collaborateur 21;Active;Paid;3050;610;3660;1;0;0;0;66;13;276;0
+F0075;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;13/5/2024;16/5/2024;15/6/2024;3/6/2024;TVA;Sales 1;Collaborateur 21;Active;Paid;2080;416;2496;1;1;0;0;43;4;245;0
+F0076;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;22/6/2024;26/6/2024;26/7/2024;15/7/2024;Fiscalité;Sales 4;Collaborateur 19;Active;Paid;2107;421;2528;1;0;0;0;100;13;159;0
+F0077;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;6/6/2024;9/6/2024;9/7/2024;29/6/2024;TVA;Sales 1;Collaborateur 19;Active;Paid;1287;257;1544;1;1;0;0;32;4;128;0
+F0078;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;10/6/2024;16/6/2024;16/7/2024;7/7/2024;Révision;Sales 2;Collaborateur 4;Active;Paid;1957;391;2348;1;0;0;0;114;17;162;0
+F0079;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;15/6/2024;23/6/2024;23/7/2024;7/8/2024;Bilan;Sales 3;Collaborateur 16;Active;Late;4037;807;4844;1;0;0;1;192;24;211;15
+F0080;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;3/6/2024;6/6/2024;6/7/2024;13/6/2024;Paie;Sales 4;Collaborateur 16;Active;Paid;1947;389;2336;1;0;20;0;53;6;170;0
+F0081;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;9/6/2024;13/6/2024;13/7/2024;21/6/2024;Fiscalité;Sales 1;Collaborateur 25;Active;Paid;2487;497;2984;1;0;0;0;120;6;204;0
+F0082;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;17/6/2024;20/6/2024;20/7/2024;29/6/2024;TVA;Sales 2;Collaborateur 25;Active;Paid;1667;333;2000;1;1;0;0;37;3;173;0
+F0083;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;21/6/2024;27/6/2024;27/7/2024;7/7/2024;Révision;Sales 3;Collaborateur 12;Active;Paid;2457;491;2948;1;0;0;0;139;22;207;0
+F0084;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;2/6/2024;10/6/2024;10/7/2024;30/7/2024;Bilan;Sales 4;Collaborateur 21;Active;Late;4817;963;5780;1;0;0;1;222;29;256;20
+F0085;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;14/6/2024;17/6/2024;17/7/2024;29/6/2024;Paie;Sales 1;Collaborateur 21;Active;Paid;2177;435;2612;1;0;30;0;63;3;215;0
+F0086;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;20/6/2024;24/6/2024;24/7/2024;7/7/2024;Fiscalité;Sales 2;Collaborateur 7;Active;Paid;3147;629;3776;1;0;0;0;60;11;249;0
+F0087;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;4/6/2024;7/6/2024;7/7/2024;21/6/2024;TVA;Sales 3;Collaborateur 7;Active;Paid;2047;409;2456;1;1;0;0;42;2;218;0
+F0088;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;8/6/2024;14/6/2024;14/7/2024;29/6/2024;Révision;Sales 4;Collaborateur 18;Active;Paid;2837;567;3404;1;0;0;0;164;12;252;0
+F0089;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;13/6/2024;21/6/2024;21/7/2024;15/8/2024;Bilan;Sales 1;Collaborateur 27;Active;Late;5067;1013;6080;1;0;0;1;252;16;301;25
+F0090;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;1/6/2024;4/6/2024;4/7/2024;21/6/2024;Paie;Sales 2;Collaborateur 27;Active;Paid;2677;535;3212;1;0;10;0;28;8;260;0
+F0091;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;6/7/2024;14/7/2024;13/8/2024;1/8/2024;Bilan;Sales 1;Collaborateur 25;Active;Paid;3704;741;4445;1;0;0;1;182;22;184;0
+F0092;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;18/7/2024;21/7/2024;20/8/2024;30/8/2024;Paie;Sales 2;Collaborateur 25;Active;Late;1344;269;1613;1;0;15;0;50;4;143;10
+F0093;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;30/6/2024;4/7/2024;3/8/2024;24/7/2024;Fiscalité;Sales 3;Collaborateur 12;Active;Paid;2034;407;2441;1;0;0;0;114;16;177;0
+F0094;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;8/7/2024;11/7/2024;10/8/2024;1/8/2024;TVA;Sales 4;Collaborateur 12;Active;Paid;1214;243;1457;1;1;0;0;36;7;146;0
+F0095;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;12/7/2024;18/7/2024;17/8/2024;9/8/2024;Révision;Sales 1;Collaborateur 21;Active;Paid;2154;431;2585;1;0;0;0;128;20;180;0
+F0096;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;17/7/2024;25/7/2024;24/8/2024;1/8/2024;Bilan;Sales 2;Collaborateur 7;Active;Paid;4084;817;4901;1;0;0;1;212;27;229;0
+F0097;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;5/7/2024;8/7/2024;7/8/2024;22/8/2024;Paie;Sales 3;Collaborateur 7;Active;Late;1844;369;2213;1;0;25;0;60;9;188;15
+F0098;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;11/7/2024;15/7/2024;14/8/2024;24/7/2024;Fiscalité;Sales 4;Collaborateur 18;Active;Paid;2534;507;3041;1;0;0;0;134;9;222;0
+F0099;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;19/7/2024;22/7/2024;21/8/2024;1/8/2024;TVA;Sales 1;Collaborateur 18;Active;Paid;1874;375;2249;1;1;0;0;41;6;191;0
+F0100;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;29/6/2024;5/7/2024;4/8/2024;16/7/2024;Révision;Sales 2;Collaborateur 27;Active;Paid;2384;477;2861;1;0;0;0;153;10;225;0
+F0101;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;4/7/2024;12/7/2024;11/8/2024;24/7/2024;Bilan;Sales 3;Collaborateur 14;Active;Paid;4744;949;5693;1;0;0;1;242;14;274;0
+F0102;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;16/7/2024;19/7/2024;18/8/2024;7/9/2024;Paie;Sales 4;Collaborateur 14;Active;Late;2224;445;2669;1;0;5;0;25;6;233;20
+F0103;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;22/7/2024;26/7/2024;25/8/2024;9/8/2024;Fiscalité;Sales 1;Collaborateur 23;Active;Paid;2914;583;3497;1;0;0;0;74;14;267;0
+F0104;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;6/7/2024;9/7/2024;8/8/2024;24/7/2024;TVA;Sales 2;Collaborateur 23;Active;Paid;2244;449;2693;1;1;0;0;46;5;236;0
+F0105;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;10/7/2024;16/7/2024;15/8/2024;1/8/2024;Révision;Sales 3;Collaborateur 9;Active;Paid;2884;577;3461;1;0;0;0;88;15;270;0
+F0106;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;23/8/2024;26/8/2024;25/9/2024;12/9/2024;TVA;Sales 2;Collaborateur 21;Active;Paid;971;194;1165;1;1;0;0;35;5;119;0
+F0107;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;3/8/2024;9/8/2024;8/9/2024;27/8/2024;Révision;Sales 3;Collaborateur 7;Active;Paid;1761;352;2113;1;0;0;0;117;18;153;0
+F0108;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;8/8/2024;16/8/2024;15/9/2024;4/9/2024;Bilan;Sales 4;Collaborateur 18;Active;Paid;3841;768;4609;1;0;0;1;202;25;202;0
+F0109;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;20/8/2024;23/8/2024;22/9/2024;1/10/2024;Paie;Sales 1;Collaborateur 18;Active;Late;1601;320;1921;1;0;20;0;57;7;161;9
+F0110;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;2/8/2024;6/8/2024;5/9/2024;27/8/2024;Fiscalité;Sales 2;Collaborateur 27;Active;Paid;2441;488;2929;1;0;0;0;128;7;195;0
+F0111;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;10/8/2024;13/8/2024;12/9/2024;4/9/2024;TVA;Sales 3;Collaborateur 27;Active;Paid;1471;294;1765;1;1;0;0;40;4;164;0
+F0112;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;14/8/2024;20/8/2024;19/9/2024;27/8/2024;Révision;Sales 4;Collaborateur 14;Active;Paid;2261;452;2713;1;0;0;0;142;8;198;0
+F0113;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;19/8/2024;27/8/2024;26/9/2024;4/9/2024;Bilan;Sales 1;Collaborateur 23;Active;Paid;4221;844;5065;1;0;0;1;232;30;247;0
+F0114;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;7/8/2024;10/8/2024;9/9/2024;23/9/2024;Paie;Sales 2;Collaborateur 23;Active;Late;2261;452;2713;1;0;30;0;67;4;206;14
+F0115;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;13/8/2024;17/8/2024;16/9/2024;27/8/2024;Fiscalité;Sales 3;Collaborateur 9;Active;Paid;2671;534;3205;1;0;0;0;68;12;240;0
+F0116;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;21/8/2024;24/8/2024;23/9/2024;4/9/2024;TVA;Sales 4;Collaborateur 9;Active;Paid;2131;426;2557;1;1;0;0;45;3;209;0
+F0117;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;1/8/2024;7/8/2024;6/9/2024;19/8/2024;Révision;Sales 1;Collaborateur 19;Active;Paid;2641;528;3169;1;0;0;0;77;13;243;0
+F0118;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;6/8/2024;14/8/2024;13/9/2024;27/8/2024;Bilan;Sales 2;Collaborateur 4;Active;Paid;4721;944;5665;1;0;0;1;122;17;292;0
+F0119;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;18/8/2024;21/8/2024;20/9/2024;9/10/2024;Paie;Sales 3;Collaborateur 4;Active;Late;2631;526;3157;1;0;10;0;32;9;251;19
+F0120;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;31/7/2024;4/8/2024;3/9/2024;19/8/2024;Fiscalité;Sales 4;Collaborateur 16;Active;Paid;3051;610;3661;1;0;0;0;88;17;285;0
+F0121;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;11/9/2024;14/9/2024;14/10/2024;30/9/2024;Paie;Sales 3;Collaborateur 27;Active;Paid;1568;314;1882;1;0;15;0;54;5;134;0
+F0122;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;17/9/2024;21/9/2024;21/10/2024;12/11/2024;Fiscalité;Sales 4;Collaborateur 14;Active;Late;2258;452;2710;1;0;0;0;122;17;168;22
+F0123;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;1/9/2024;4/9/2024;4/10/2024;22/9/2024;TVA;Sales 1;Collaborateur 14;Active;Paid;1438;288;1726;1;1;0;0;39;2;137;0
+F0124;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;5/9/2024;11/9/2024;11/10/2024;30/9/2024;Révision;Sales 2;Collaborateur 23;Active;Paid;2228;446;2674;1;0;0;0;131;21;171;0
+F0125;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;10/9/2024;18/9/2024;18/10/2024;8/10/2024;Bilan;Sales 3;Collaborateur 9;Active;Paid;4458;892;5350;1;0;0;1;222;28;220;0
+F0126;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;22/9/2024;25/9/2024;25/10/2024;16/10/2024;Paie;Sales 4;Collaborateur 9;Active;Paid;2068;414;2482;1;0;25;0;64;10;179;0
+F0127;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;4/9/2024;8/9/2024;8/10/2024;17/10/2024;Fiscalité;Sales 1;Collaborateur 19;Active;Late;2758;552;3310;1;0;0;0;62;10;213;9
+F0128;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;12/9/2024;15/9/2024;15/10/2024;22/9/2024;TVA;Sales 2;Collaborateur 19;Active;Paid;1818;364;2182;1;1;0;0;44;7;182;0
+F0129;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;16/9/2024;22/9/2024;22/10/2024;30/9/2024;Révision;Sales 3;Collaborateur 4;Active;Paid;2888;578;3466;1;0;0;0;156;11;216;0
+F0130;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;28/8/2024;5/9/2024;5/10/2024;14/9/2024;Bilan;Sales 4;Collaborateur 16;Active;Paid;4688;938;5626;1;0;0;1;252;15;265;0
+F0131;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;9/9/2024;12/9/2024;12/10/2024;22/9/2024;Paie;Sales 1;Collaborateur 16;Active;Paid;2728;546;3274;1;0;5;0;29;7;224;0
+F0132;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;15/9/2024;19/9/2024;19/10/2024;2/11/2024;Fiscalité;Sales 2;Collaborateur 25;Active;Late;3138;628;3766;1;0;0;0;82;15;258;14
+F0133;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;23/9/2024;26/9/2024;26/10/2024;8/10/2024;TVA;Sales 3;Collaborateur 25;Active;Paid;2318;464;2782;1;1;0;0;49;6;227;0
+F0134;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;3/9/2024;9/9/2024;9/10/2024;22/9/2024;Révision;Sales 4;Collaborateur 12;Active;Paid;3258;652;3910;1;0;0;0;91;16;261;0
+F0135;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;8/9/2024;16/9/2024;16/10/2024;30/9/2024;Bilan;Sales 1;Collaborateur 21;Active;Paid;5068;1014;6082;1;0;0;1;142;20;310;0
+F0136;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;20/10/2024;26/10/2024;25/11/2024;10/11/2024;Révision;Sales 4;Collaborateur 9;Active;Paid;1775;355;2130;1;0;0;0;120;19;144;0
+F0137;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;1/10/2024;9/10/2024;8/11/2024;25/10/2024;Bilan;Sales 1;Collaborateur 19;Active;Paid;3855;771;4626;1;0;0;1;212;26;193;0
+F0138;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;13/10/2024;16/10/2024;15/11/2024;2/11/2024;Paie;Sales 2;Collaborateur 19;Active;Paid;1615;323;1938;1;0;20;0;61;8;152;0
+F0139;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;19/10/2024;23/10/2024;22/11/2024;13/12/2024;Fiscalité;Sales 3;Collaborateur 4;Active;Late;2305;461;2766;1;0;0;0;136;8;186;21
+F0140;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;3/10/2024;6/10/2024;5/11/2024;25/10/2024;TVA;Sales 4;Collaborateur 4;Active;Paid;1635;327;1962;1;1;0;0;43;5;155;0
+F0141;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;7/10/2024;13/10/2024;12/11/2024;2/11/2024;Révision;Sales 1;Collaborateur 16;Active;Paid;2275;455;2730;1;0;0;0;145;9;189;0
+F0142;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;12/10/2024;20/10/2024;19/11/2024;10/11/2024;Bilan;Sales 2;Collaborateur 25;Active;Paid;4235;847;5082;1;0;0;1;242;31;238;0
+F0143;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;24/10/2024;27/10/2024;26/11/2024;18/11/2024;Paie;Sales 3;Collaborateur 25;Active;Paid;1995;399;2394;1;0;30;0;26;5;197;0
+F0144;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;6/10/2024;10/10/2024;9/11/2024;17/11/2024;Fiscalité;Sales 4;Collaborateur 12;Active;Late;2965;593;3558;1;0;0;0;76;13;231;8
+F0145;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;14/10/2024;17/10/2024;16/11/2024;25/10/2024;TVA;Sales 1;Collaborateur 12;Active;Paid;1865;373;2238;1;1;0;0;48;4;200;0
+F0146;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;18/10/2024;24/10/2024;23/11/2024;2/11/2024;Révision;Sales 2;Collaborateur 21;Active;Paid;2935;587;3522;1;0;0;0;80;14;234;0
+F0147;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;29/9/2024;7/10/2024;6/11/2024;17/10/2024;Bilan;Sales 3;Collaborateur 7;Active;Paid;4735;947;5682;1;0;0;1;132;18;283;0
+F0148;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;11/10/2024;14/10/2024;13/11/2024;25/10/2024;Paie;Sales 4;Collaborateur 7;Active;Paid;2495;499;2994;1;0;10;0;36;10;242;0
+F0149;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;17/10/2024;21/10/2024;20/11/2024;3/12/2024;Fiscalité;Sales 1;Collaborateur 18;Active;Late;3215;643;3858;1;0;0;0;96;6;276;13
+F0150;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;1/10/2024;4/10/2024;3/11/2024;17/10/2024;TVA;Sales 2;Collaborateur 18;Active;Paid;2245;449;2694;1;1;0;0;18;3;245;0
+F0151;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;10/11/2024;14/11/2024;14/12/2024;28/11/2024;Fiscalité;Sales 1;Collaborateur 16;Active;Paid;2268;454;2722;1;0;0;0;130;6;159;0
+F0152;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;18/11/2024;21/11/2024;21/12/2024;6/1/2025;TVA;Sales 2;Collaborateur 16;Active;Late;1366;273;1639;1;1;0;0;42;3;128;16
+F0153;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;29/10/2024;4/11/2024;4/12/2024;20/11/2024;Révision;Sales 3;Collaborateur 25;Active;Paid;2235;447;2682;1;0;0;0;134;22;162;0
+F0154;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;3/11/2024;11/11/2024;11/12/2024;28/11/2024;Bilan;Sales 4;Collaborateur 12;Active;Paid;4523;905;5428;1;0;0;1;232;29;211;0
+F0155;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;15/11/2024;18/11/2024;18/12/2024;6/12/2024;Paie;Sales 1;Collaborateur 12;Active;Paid;2224;445;2669;1;0;25;0;68;3;170;0
+F0156;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;21/11/2024;25/11/2024;25/12/2024;14/12/2024;Fiscalité;Sales 2;Collaborateur 21;Active;Paid;2686;537;3223;1;0;0;0;70;11;204;0
+F0157;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;5/11/2024;8/11/2024;8/12/2024;29/12/2024;TVA;Sales 3;Collaborateur 21;Active;Late;1784;357;2141;1;1;0;0;47;2;173;21
+F0158;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;9/11/2024;15/11/2024;15/12/2024;6/12/2024;Révision;Sales 4;Collaborateur 7;Active;Paid;2653;531;3184;1;0;0;0;159;12;207;0
+F0159;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;14/11/2024;22/11/2024;22/12/2024;14/12/2024;Bilan;Sales 1;Collaborateur 18;Active;Paid;5249;1050;6299;1;0;0;1;122;16;256;0
+F0160;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;2/11/2024;5/11/2024;5/12/2024;12/11/2024;Paie;Sales 2;Collaborateur 18;Active;Paid;2477;495;2972;1;0;5;0;33;8;215;0
+F0161;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;8/11/2024;12/11/2024;12/12/2024;20/11/2024;Fiscalité;Sales 3;Collaborateur 27;Active;Paid;3544;709;4253;1;0;0;0;90;16;249;0
+F0162;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;16/11/2024;19/11/2024;19/12/2024;27/12/2024;TVA;Sales 4;Collaborateur 27;Active;Late;2334;467;2801;1;1;0;0;52;7;218;8
+F0163;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;20/11/2024;26/11/2024;26/12/2024;6/12/2024;Révision;Sales 1;Collaborateur 14;Active;Paid;3071;614;3685;1;0;0;0;94;17;252;0
+F0164;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;1/11/2024;9/11/2024;9/12/2024;20/11/2024;Bilan;Sales 2;Collaborateur 23;Active;Paid;5524;1105;6629;1;0;0;1;152;21;301;0
+F0165;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;13/11/2024;16/11/2024;16/12/2024;28/11/2024;Paie;Sales 3;Collaborateur 23;Active;Paid;2895;579;3474;1;0;15;0;43;5;260;0
+F0166;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;18/12/2024;26/12/2024;25/1/2025;8/1/2025;Bilan;Sales 2;Collaborateur 21;Active;Paid;4487;897;5384;1;0;0;1;222;27;184;0
+F0167;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;6/12/2024;9/12/2024;8/1/2025;23/12/2024;Paie;Sales 3;Collaborateur 21;Active;Paid;2023;405;2428;1;0;20;0;65;9;143;0
+F0168;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;12/12/2024;16/12/2024;15/1/2025;31/12/2024;Fiscalité;Sales 4;Collaborateur 7;Active;Paid;2782;556;3338;1;0;0;0;64;9;177;0
+F0169;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;20/12/2024;23/12/2024;22/1/2025;6/2/2025;TVA;Sales 1;Collaborateur 7;Active;Late;1880;376;2256;1;1;0;0;46;6;146;15
+F0170;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;30/11/2024;6/12/2024;5/1/2025;23/12/2024;Révision;Sales 2;Collaborateur 18;Active;Paid;2782;556;3338;1;0;0;0;148;10;180;0
+F0171;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;5/12/2024;13/12/2024;12/1/2025;31/12/2024;Bilan;Sales 3;Collaborateur 27;Active;Paid;4905;981;5886;1;0;0;1;252;14;229;0
+F0172;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;17/12/2024;20/12/2024;19/1/2025;8/1/2025;Paie;Sales 4;Collaborateur 27;Active;Paid;2441;488;2929;1;0;30;0;30;6;188;0
+F0173;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;23/12/2024;27/12/2024;26/1/2025;16/1/2025;Fiscalité;Sales 1;Collaborateur 14;Active;Paid;3200;640;3840;1;0;0;0;84;14;222;0
+F0174;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;7/12/2024;10/12/2024;9/1/2025;29/1/2025;TVA;Sales 2;Collaborateur 14;Active;Late;2606;521;3127;1;1;0;0;51;5;191;20
+F0175;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;11/12/2024;17/12/2024;16/1/2025;8/1/2025;Révision;Sales 3;Collaborateur 23;Active;Paid;3167;633;3800;1;0;0;0;83;15;225;0
+F0176;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;16/12/2024;24/12/2024;23/1/2025;31/12/2024;Bilan;Sales 4;Collaborateur 9;Active;Paid;5763;1153;6916;1;0;0;1;142;19;274;0
+F0177;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;4/12/2024;7/12/2024;6/1/2025;15/12/2024;Paie;Sales 1;Collaborateur 9;Active;Paid;2859;572;3431;1;0;10;0;40;3;233;0
+F0178;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;10/12/2024;14/12/2024;13/1/2025;23/12/2024;Fiscalité;Sales 2;Collaborateur 19;Active;Paid;3618;724;4342;1;0;0;0;104;7;267;0
+F0179;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;18/12/2024;21/12/2024;20/1/2025;14/2/2025;TVA;Sales 3;Collaborateur 19;Active;Late;2881;576;3457;1;1;0;0;21;4;236;25
+F0180;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;28/11/2024;4/12/2024;3/1/2025;15/12/2024;Révision;Sales 4;Collaborateur 4;Active;Paid;3585;717;4302;1;0;0;0;108;20;270;0
+F0181;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;11/1/2025;14/1/2025;13/2/2025;26/1/2025;TVA;Sales 3;Collaborateur 18;Active;Paid;1218;244;1462;1;1;0;0;45;4;119;0
+F0182;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;15/1/2025;21/1/2025;20/2/2025;2/3/2025;Révision;Sales 4;Collaborateur 27;Pending;Late;1985;397;2382;1;0;0;0;137;8;153;10
+F0183;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;27/12/2024;4/1/2025;3/2/2025;18/1/2025;Bilan;Sales 1;Collaborateur 14;Expired;Paid;4002;800;4802;1;0;0;1;242;30;202;0
+F0184;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;8/1/2025;11/1/2025;10/2/2025;26/1/2025;Paie;Sales 2;Collaborateur 14;Active;Paid;1713;343;2056;1;0;25;0;27;4;161;0
+F0185;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;14/1/2025;18/1/2025;17/2/2025;3/2/2025;Fiscalité;Sales 3;Collaborateur 23;Active;Paid;2528;506;3034;1;0;0;0;78;12;195;0
+F0186;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;22/1/2025;25/1/2025;24/2/2025;11/2/2025;TVA;Sales 4;Collaborateur 23;Expired;Paid;1587;317;1904;1;1;0;0;50;3;164;0
+F0187;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;2/1/2025;8/1/2025;7/2/2025;22/2/2025;Révision;Sales 1;Collaborateur 9;Active;Late;2353;471;2824;1;0;0;0;162;13;198;15
+F0188;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;7/1/2025;15/1/2025;14/2/2025;3/2/2025;Bilan;Sales 2;Collaborateur 19;Pending;Paid;4371;874;5245;1;0;0;1;132;17;247;0
+F0189;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;19/1/2025;22/1/2025;21/2/2025;11/2/2025;Paie;Sales 3;Collaborateur 19;Expired;Paid;2470;494;2964;1;0;5;0;37;9;206;0
+F0190;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;1/1/2025;5/1/2025;4/2/2025;26/1/2025;Fiscalité;Sales 4;Collaborateur 4;Active;Paid;2867;573;3440;1;0;0;0;98;17;240;0
+F0191;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;9/1/2025;12/1/2025;11/2/2025;3/2/2025;TVA;Sales 1;Collaborateur 4;Active;Paid;2227;445;2672;1;1;0;0;20;2;209;0
+F0192;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;13/1/2025;19/1/2025;18/2/2025;10/3/2025;Révision;Sales 2;Collaborateur 16;Active;Late;2722;544;3266;1;0;0;0;97;18;243;20
+F0193;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;18/1/2025;26/1/2025;25/2/2025;3/2/2025;Bilan;Sales 3;Collaborateur 25;Expired;Paid;4739;948;5687;1;0;0;1;162;22;292;0
+F0194;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;6/1/2025;9/1/2025;8/2/2025;18/1/2025;Paie;Sales 4;Collaborateur 25;Pending;Paid;2712;542;3254;1;0;15;0;47;6;251;0
+F0195;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;12/1/2025;16/1/2025;15/2/2025;26/1/2025;Fiscalité;Sales 1;Collaborateur 12;Active;Paid;3236;647;3883;1;0;0;0;118;10;285;0
+F0196;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;23/2/2025;26/2/2025;28/3/2025;9/3/2025;Paie;Sales 4;Collaborateur 23;Active;Paid;1594;319;1913;1;0;20;0;69;10;134;0
+F0197;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;5/2/2025;9/2/2025;11/3/2025;21/2/2025;Fiscalité;Sales 1;Collaborateur 9;Pending;Paid;2263;453;2716;1;0;0;0;72;10;168;0
+F0198;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;13/2/2025;16/2/2025;18/3/2025;1/3/2025;TVA;Sales 2;Collaborateur 9;Expired;Paid;1351;270;1621;1;1;0;0;49;7;137;0
+F0199;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;17/2/2025;23/2/2025;25/3/2025;3/4/2025;Révision;Sales 3;Collaborateur 19;Active;Late;2118;424;2542;1;0;0;0;151;11;171;9
+F0200;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;29/1/2025;6/2/2025;8/3/2025;21/2/2025;Bilan;Sales 4;Collaborateur 4;Active;Paid;4281;856;5137;1;0;0;1;122;15;220;0
+F0201;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;10/2/2025;13/2/2025;15/3/2025;1/3/2025;Paie;Sales 1;Collaborateur 4;Expired;Paid;1962;392;2354;1;0;30;0;34;7;179;0
+F0202;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;16/2/2025;20/2/2025;22/3/2025;9/3/2025;Fiscalité;Sales 2;Collaborateur 16;Active;Paid;2632;526;3158;1;0;0;0;92;15;213;0
+F0203;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;24/2/2025;27/2/2025;29/3/2025;17/3/2025;TVA;Sales 3;Collaborateur 16;Pending;Paid;1836;367;2203;1;1;0;0;19;6;182;0
+F0204;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;4/2/2025;10/2/2025;12/3/2025;26/3/2025;Révision;Sales 4;Collaborateur 25;Expired;Late;2874;575;3449;1;0;0;0;86;16;216;14
+F0205;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;9/2/2025;17/2/2025;19/3/2025;9/3/2025;Bilan;Sales 1;Collaborateur 12;Active;Paid;4504;901;5405;1;0;0;1;152;20;265;0
+F0206;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;21/2/2025;24/2/2025;26/3/2025;17/3/2025;Paie;Sales 2;Collaborateur 12;Active;Paid;2603;521;3124;1;0;10;0;44;4;224;0
+F0207;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;3/2/2025;7/2/2025;9/3/2025;1/3/2025;Fiscalité;Sales 3;Collaborateur 21;Active;Paid;3000;600;3600;1;0;0;0;112;8;258;0
+F0208;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;11/2/2025;14/2/2025;16/3/2025;21/2/2025;TVA;Sales 4;Collaborateur 21;Expired;Paid;2205;441;2646;1;1;0;0;24;5;227;0
+F0209;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;15/2/2025;21/2/2025;23/3/2025;11/4/2025;Révision;Sales 1;Collaborateur 7;Pending;Late;3117;623;3740;1;0;0;0;111;21;261;19
+F0210;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;27/1/2025;4/2/2025;6/3/2025;13/2/2025;Bilan;Sales 2;Collaborateur 18;Active;Paid;4989;998;5987;1;0;0;1;182;25;310;0
+F0211;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;8/3/2025;14/3/2025;13/4/2025;24/3/2025;Révision;Sales 1;Collaborateur 4;Active;Paid;2270;454;2724;1;0;0;0;140;9;144;0
+F0212;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;13/3/2025;21/3/2025;20/4/2025;12/5/2025;Bilan;Sales 2;Collaborateur 16;Pending;Late;4230;846;5076;1;0;0;1;252;31;193;22
+F0213;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;1/3/2025;4/3/2025;3/4/2025;16/3/2025;Paie;Sales 3;Collaborateur 16;Expired;Paid;1990;398;2388;1;0;25;0;31;5;152;0
+F0214;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;7/3/2025;11/3/2025;10/4/2025;24/3/2025;Fiscalité;Sales 4;Collaborateur 25;Active;Paid;2680;536;3216;1;0;0;0;86;13;186;0
+F0215;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;15/3/2025;18/3/2025;17/4/2025;1/4/2025;TVA;Sales 1;Collaborateur 25;Active;Paid;2010;402;2412;1;1;0;0;18;4;155;0
+F0216;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;19/3/2025;25/3/2025;24/4/2025;9/4/2025;Révision;Sales 2;Collaborateur 12;Expired;Paid;2650;530;3180;1;0;0;0;75;14;189;0
+F0217;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;28/2/2025;8/3/2025;7/4/2025;16/4/2025;Bilan;Sales 3;Collaborateur 21;Active;Late;4730;946;5676;1;0;0;1;142;18;238;9
+F0218;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;12/3/2025;15/3/2025;14/4/2025;1/4/2025;Paie;Sales 4;Collaborateur 21;Pending;Paid;2490;498;2988;1;0;5;0;41;10;197;0
+F0219;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;18/3/2025;22/3/2025;21/4/2025;9/4/2025;Fiscalité;Sales 1;Collaborateur 7;Expired;Paid;3340;668;4008;1;0;0;0;106;6;231;0
+F0220;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;2/3/2025;5/3/2025;4/4/2025;24/3/2025;TVA;Sales 2;Collaborateur 7;Active;Paid;2240;448;2688;1;1;0;0;23;3;200;0
+F0221;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;6/3/2025;12/3/2025;11/4/2025;1/4/2025;Révision;Sales 3;Collaborateur 18;Active;Paid;3310;662;3972;1;0;0;0;100;19;234;0
+F0222;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;11/3/2025;19/3/2025;18/4/2025;2/5/2025;Bilan;Sales 4;Collaborateur 27;Active;Late;5110;1022;6132;1;0;0;1;172;23;283;14
+F0223;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;23/3/2025;26/3/2025;25/4/2025;17/4/2025;Paie;Sales 1;Collaborateur 27;Expired;Paid;2870;574;3444;1;0;15;0;51;7;242;0
+F0224;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;5/3/2025;9/3/2025;8/4/2025;16/3/2025;Fiscalité;Sales 2;Collaborateur 14;Pending;Paid;3710;742;4452;1;0;0;0;126;11;276;0
+F0225;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;13/3/2025;16/3/2025;15/4/2025;24/3/2025;TVA;Sales 3;Collaborateur 14;Active;Paid;2740;548;3288;1;1;0;0;28;2;245;0
+F0226;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;22/4/2025;26/4/2025;26/5/2025;5/5/2025;Fiscalité;Sales 2;Collaborateur 12;Active;Paid;2227;445;2672;1;0;0;0;80;11;159;0
+F0227;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;6/4/2025;9/4/2025;9/5/2025;19/4/2025;TVA;Sales 3;Collaborateur 12;Pending;Paid;1407;281;1688;1;1;0;0;52;2;128;0
+F0228;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;10/4/2025;16/4/2025;16/5/2025;27/4/2025;Révision;Sales 4;Collaborateur 21;Expired;Paid;2197;439;2636;1;0;0;0;154;12;162;0
+F0229;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;15/4/2025;23/4/2025;23/5/2025;13/6/2025;Bilan;Sales 1;Collaborateur 7;Active;Late;4277;855;5132;1;0;0;1;132;16;211;21
+F0230;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;3/4/2025;6/4/2025;6/5/2025;19/4/2025;Paie;Sales 2;Collaborateur 7;Active;Paid;2187;437;2624;1;0;30;0;38;8;170;0
+F0231;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;9/4/2025;13/4/2025;13/5/2025;27/4/2025;Fiscalité;Sales 3;Collaborateur 18;Expired;Paid;2727;545;3272;1;0;0;0;100;16;204;0
+F0232;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;17/4/2025;20/4/2025;20/5/2025;5/5/2025;TVA;Sales 4;Collaborateur 18;Active;Paid;1907;381;2288;1;1;0;0;22;7;173;0
+F0233;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;21/4/2025;27/4/2025;27/5/2025;13/5/2025;Révision;Sales 1;Collaborateur 27;Pending;Paid;2577;515;3092;1;0;0;0;89;17;207;0
+F0234;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;2/4/2025;10/4/2025;10/5/2025;18/5/2025;Bilan;Sales 2;Collaborateur 14;Expired;Late;4937;987;5924;1;0;0;1;162;21;256;8
+F0235;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;14/4/2025;17/4/2025;17/5/2025;5/5/2025;Paie;Sales 3;Collaborateur 14;Active;Paid;2417;483;2900;1;0;10;0;48;5;215;0
+F0236;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;20/4/2025;24/4/2025;24/5/2025;13/5/2025;Fiscalité;Sales 4;Collaborateur 23;Active;Paid;3387;677;4064;1;0;0;0;120;9;249;0
+F0237;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;4/4/2025;7/4/2025;7/5/2025;27/4/2025;TVA;Sales 1;Collaborateur 23;Active;Paid;2287;457;2744;1;1;0;0;27;6;218;0
+F0238;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;8/4/2025;14/4/2025;14/5/2025;5/5/2025;Révision;Sales 2;Collaborateur 9;Expired;Paid;3077;615;3692;1;0;0;0;114;22;252;0
+F0239;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;13/4/2025;21/4/2025;21/5/2025;3/6/2025;Bilan;Sales 3;Collaborateur 19;Pending;Late;5307;1061;6368;1;0;0;1;192;26;301;13
+F0240;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;1/4/2025;4/4/2025;4/5/2025;11/4/2025;Paie;Sales 4;Collaborateur 19;Active;Paid;2797;559;3356;1;0;20;0;58;10;260;0
+F0241;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;6/5/2025;14/5/2025;13/6/2025;22/5/2025;Bilan;Sales 3;Collaborateur 18;Active;Paid;4034;807;4841;1;0;0;1;122;14;184;0
+F0242;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;18/5/2025;21/5/2025;20/6/2025;6/7/2025;Paie;Sales 4;Collaborateur 18;Pending;Late;1794;359;2153;1;0;25;0;35;6;143;16
+F0243;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;30/4/2025;4/5/2025;3/6/2025;14/5/2025;Fiscalité;Sales 1;Collaborateur 27;Expired;Paid;2484;497;2981;1;0;0;0;94;14;177;0
+F0244;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;8/5/2025;11/5/2025;10/6/2025;22/5/2025;TVA;Sales 2;Collaborateur 27;Active;Paid;1664;333;1997;1;1;0;0;21;5;146;0
+F0245;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;12/5/2025;18/5/2025;17/6/2025;30/5/2025;Révision;Sales 3;Collaborateur 14;Active;Paid;2604;521;3125;1;0;0;0;78;15;180;0
+F0246;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;17/5/2025;25/5/2025;24/6/2025;7/6/2025;Bilan;Sales 4;Collaborateur 23;Expired;Paid;4534;907;5441;1;0;0;1;152;19;229;0
+F0247;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;5/5/2025;8/5/2025;7/6/2025;28/6/2025;Paie;Sales 1;Collaborateur 23;Active;Late;2294;459;2753;1;0;5;0;45;3;188;21
+F0248;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;11/5/2025;15/5/2025;14/6/2025;30/5/2025;Fiscalité;Sales 2;Collaborateur 9;Pending;Paid;2864;573;3437;1;0;0;0;114;7;222;0
+F0249;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;19/5/2025;22/5/2025;21/6/2025;7/6/2025;TVA;Sales 3;Collaborateur 9;Expired;Paid;2324;465;2789;1;1;0;0;26;4;191;0
+F0250;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;29/4/2025;5/5/2025;4/6/2025;22/5/2025;Révision;Sales 4;Collaborateur 19;Active;Paid;2834;567;3401;1;0;0;0;103;20;225;0
+F0251;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;4/5/2025;12/5/2025;11/6/2025;30/5/2025;Bilan;Sales 1;Collaborateur 4;Active;Paid;5194;1039;6233;1;0;0;1;182;24;274;0
+F0252;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;16/5/2025;19/5/2025;18/6/2025;26/6/2025;Paie;Sales 2;Collaborateur 4;Active;Late;2674;535;3209;1;0;15;0;55;8;233;8
+F0253;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;22/5/2025;26/5/2025;25/6/2025;15/6/2025;Fiscalité;Sales 3;Collaborateur 16;Expired;Paid;3364;673;4037;1;0;0;0;134;12;267;0
+F0254;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;6/5/2025;9/5/2025;8/6/2025;30/5/2025;TVA;Sales 4;Collaborateur 16;Pending;Paid;2694;539;3233;1;1;0;0;31;3;236;0
+F0255;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;10/5/2025;16/5/2025;15/6/2025;7/6/2025;Révision;Sales 1;Collaborateur 25;Active;Paid;3214;643;3857;1;0;0;0;128;10;270;0
+F0256;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;23/6/2025;26/6/2025;26/7/2025;3/7/2025;TVA;Sales 4;Collaborateur 14;Active;Paid;1631;326;1957;1;1;0;0;20;3;119;0
+F0257;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;3/6/2025;9/6/2025;9/7/2025;17/6/2025;Révision;Sales 1;Collaborateur 23;Pending;Paid;2421;484;2905;1;0;0;0;157;13;153;0
+F0258;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;8/6/2025;16/6/2025;16/7/2025;null;Bilan;Sales 2;Collaborateur 9;Expired;Unpaid;4501;900;5401;1;0;0;1;142;17;202;76
+F0259;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;20/6/2025;23/6/2025;23/7/2025;7/8/2025;Paie;Sales 3;Collaborateur 9;Active;Late;2261;452;2713;1;0;30;0;42;9;161;15
+F0260;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;2/6/2025;6/6/2025;6/7/2025;17/6/2025;Fiscalité;Sales 4;Collaborateur 19;Active;Paid;3101;620;3721;1;0;0;0;108;17;195;0
+F0261;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;10/6/2025;13/6/2025;13/7/2025;25/6/2025;TVA;Sales 1;Collaborateur 19;Expired;Paid;2131;426;2557;1;1;0;0;25;2;164;0
+F0262;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;14/6/2025;20/6/2025;20/7/2025;3/7/2025;Révision;Sales 2;Collaborateur 4;Active;Paid;2801;560;3361;1;0;0;0;92;18;198;0
+F0263;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;19/6/2025;27/6/2025;27/7/2025;null;Bilan;Sales 3;Collaborateur 16;Pending;Unpaid;4881;976;5857;1;0;0;1;172;22;247;65
+F0264;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;7/6/2025;10/6/2025;10/7/2025;30/7/2025;Paie;Sales 4;Collaborateur 16;Expired;Late;2921;584;3505;1;0;10;0;52;6;206;20
+F0265;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;13/6/2025;17/6/2025;17/7/2025;3/7/2025;Fiscalité;Sales 1;Collaborateur 25;Active;Paid;3331;666;3997;1;0;0;0;128;10;240;0
+F0266;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;21/6/2025;24/6/2025;24/7/2025;11/7/2025;TVA;Sales 2;Collaborateur 25;Active;Paid;2791;558;3349;1;1;0;0;30;7;209;0
+F0267;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;1/6/2025;7/6/2025;7/7/2025;25/6/2025;Révision;Sales 3;Collaborateur 12;Active;Paid;3301;660;3961;1;0;0;0;117;8;243;0
+F0268;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;6/6/2025;14/6/2025;14/7/2025;null;Bilan;Sales 4;Collaborateur 21;Expired;Unpaid;5381;1076;6457;1;0;0;1;202;27;292;78
+F0269;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;18/6/2025;21/6/2025;21/7/2025;15/8/2025;Paie;Sales 1;Collaborateur 21;Pending;Late;3171;634;3805;1;0;20;0;62;3;251;25
+F0270;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;31/5/2025;4/6/2025;4/7/2025;25/6/2025;Fiscalité;Sales 2;Collaborateur 7;Active;Paid;3711;742;4453;1;0;0;0;68;15;285;0
+F0271;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;11/7/2025;14/7/2025;13/8/2025;null;Paie;Sales 1;Collaborateur 19;Active;Unpaid;1989;398;2387;1;0;25;0;39;7;134;48
+F0272;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;17/7/2025;21/7/2025;20/8/2025;30/8/2025;Fiscalité;Sales 2;Collaborateur 4;Pending;Late;2748;550;3298;1;0;0;0;102;15;168;10
+F0273;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;1/7/2025;4/7/2025;3/8/2025;12/7/2025;TVA;Sales 3;Collaborateur 4;Expired;Paid;1846;369;2215;1;1;0;0;24;6;137;0
+F0274;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;5/7/2025;11/7/2025;10/8/2025;20/7/2025;Révision;Sales 4;Collaborateur 16;Active;Paid;2715;543;3258;1;0;0;0;81;16;171;0
+F0275;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;10/7/2025;18/7/2025;17/8/2025;null;Bilan;Sales 1;Collaborateur 25;Active;Unpaid;5168;1034;6202;1;0;0;1;162;20;220;44
+F0276;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;22/7/2025;25/7/2025;24/8/2025;null;Paie;Sales 2;Collaborateur 25;Expired;Unpaid;2407;481;2888;1;0;5;0;49;4;179;37
+F0277;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;4/7/2025;8/7/2025;7/8/2025;22/8/2025;Fiscalité;Sales 3;Collaborateur 12;Active;Late;3166;633;3799;1;0;0;0;122;8;213;15
+F0278;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;12/7/2025;15/7/2025;14/8/2025;28/7/2025;TVA;Sales 4;Collaborateur 12;Pending;Paid;2264;453;2717;1;1;0;0;29;5;182;0
+F0279;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;16/7/2025;22/7/2025;21/8/2025;5/8/2025;Révision;Sales 1;Collaborateur 21;Expired;Paid;3441;688;4129;1;0;0;0;106;21;216;0
+F0280;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;27/6/2025;5/7/2025;4/8/2025;null;Bilan;Sales 2;Collaborateur 7;Active;Unpaid;5421;1084;6505;1;0;0;1;192;25;265;57
+F0281;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;9/7/2025;12/7/2025;11/8/2025;null;Paie;Sales 3;Collaborateur 7;Active;Unpaid;3265;653;3918;1;0;15;0;59;9;224;50
+F0282;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;15/7/2025;19/7/2025;18/8/2025;7/9/2025;Fiscalité;Sales 4;Collaborateur 18;Active;Late;3716;743;4459;1;0;0;0;62;13;258;20
+F0283;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;23/7/2025;26/7/2025;25/8/2025;13/8/2025;TVA;Sales 1;Collaborateur 18;Expired;Paid;2682;536;3218;1;1;0;0;34;4;227;0
+F0284;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;3/7/2025;9/7/2025;8/8/2025;28/7/2025;Révision;Sales 2;Collaborateur 27;Pending;Paid;3716;743;4459;1;0;0;0;131;11;261;0
+F0285;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;8/7/2025;16/7/2025;15/8/2025;null;Bilan;Sales 3;Collaborateur 14;Active;Unpaid;5839;1168;7007;1;0;0;1;222;30;310;46
+F0286;G001;Groupe Alpha;E001;Alpha BTP Lyon;BTP;Auvergne-Rhône-Alpes;France;Réalisée;20/8/2025;26/8/2025;25/9/2025;16/9/2025;Révision;Sales 2;Collaborateur 25;Active;Paid;2448;490;2938;1;0;0;0;160;14;144;0
+F0287;G001;Groupe Alpha;E002;Alpha Immo Paris;Immobilier;Île-de-France;France;Réalisée;1/8/2025;9/8/2025;8/9/2025;31/8/2025;Bilan;Sales 3;Collaborateur 12;Pending;Paid;4736;947;5683;1;0;0;1;152;18;193;0
+F0288;G001;Groupe Alpha;E003;Alpha Consulting Bruxelles;Conseil;Flandre;Belgique;Réalisée;13/8/2025;16/8/2025;15/9/2025;null;Paie;Sales 4;Collaborateur 12;Expired;Unpaid;2272;454;2726;1;0;30;0;46;10;152;15
+F0289;G002;Groupe Nova;E004;Nova IT Paris;IT;Île-de-France;France;Réalisée;19/8/2025;23/8/2025;22/9/2025;1/10/2025;Fiscalité;Sales 1;Collaborateur 21;Active;Late;3031;606;3637;1;0;0;0;116;6;186;9
+F0290;G002;Groupe Nova;E005;Nova Marketing Milan;Marketing;Lombardie;Italie;Réalisée;3/8/2025;6/8/2025;5/9/2025;15/8/2025;TVA;Sales 2;Collaborateur 21;Active;Paid;2162;432;2594;1;1;0;0;28;3;155;0
+F0291;G002;Groupe Nova;E006;Nova Education Athènes;Éducation;Attique;Grèce;Réalisée;7/8/2025;13/8/2025;12/9/2025;23/8/2025;Révision;Sales 3;Collaborateur 7;Expired;Paid;2866;573;3439;1;0;0;0;95;19;189;0
+F0292;G003;Holding Horizon;E007;Horizon Immobilier Lille;Immobilier;Hauts-de-France;France;Réalisée;12/8/2025;20/8/2025;19/9/2025;31/8/2025;Bilan;Sales 4;Collaborateur 18;Active;Paid;5154;1031;6185;1;0;0;1;182;23;238;0
+F0293;G003;Holding Horizon;E008;Horizon Paie Marseille;Paie;Provence-Alpes-Côte d'Azur;France;Réalisée;24/8/2025;27/8/2025;26/9/2025;null;Paie;Sales 1;Collaborateur 18;Pending;Unpaid;2690;538;3228;1;0;10;0;56;7;197;4
+F0294;G003;Holding Horizon;E009;Horizon Conseil New York;Conseil;New York;États-Unis;Réalisée;6/8/2025;10/8/2025;9/9/2025;23/9/2025;Fiscalité;Sales 2;Collaborateur 27;Expired;Late;3757;751;4508;1;0;0;0;136;11;231;14
+F0295;G004;Groupe Atlas;E010;Atlas Transport Bruxelles;Transport;Flandre;Belgique;Réalisée;14/8/2025;17/8/2025;16/9/2025;31/8/2025;TVA;Sales 3;Collaborateur 27;Active;Paid;2547;509;3056;1;1;0;0;33;2;200;0
+F0296;G004;Groupe Atlas;E011;Atlas IT Montréal;IT;Québec;Canada;Réalisée;18/8/2025;24/8/2025;23/9/2025;8/9/2025;Révision;Sales 4;Collaborateur 14;Active;Paid;3724;745;4469;1;0;0;0;120;9;234;0
+F0297;G004;Groupe Atlas;E012;Atlas Formation Paris;Éducation;Île-de-France;France;Réalisée;30/7/2025;7/8/2025;6/9/2025;23/8/2025;Bilan;Sales 1;Collaborateur 23;Active;Paid;5572;1114;6686;1;0;0;1;212;28;283;0
+F0298;G005;Holding Orion;E013;Orion BTP Athènes;BTP;Attique;Grèce;Réalisée;11/8/2025;14/8/2025;13/9/2025;null;Paie;Sales 2;Collaborateur 23;Expired;Unpaid;3108;622;3730;1;0;20;0;66;4;242;17
+F0299;G005;Holding Orion;E014;Orion Digital Berlin;IT;Rhénanie-du-Nord-Westphalie;Allemagne;Réalisée;17/8/2025;21/8/2025;20/9/2025;9/10/2025;Fiscalité;Sales 3;Collaborateur 9;Pending;Late;4032;806;4838;1;0;0;0;76;16;276;19
+F0300;G005;Holding Orion;E015;Orion Services Lyon;Services;Auvergne-Rhône-Alpes;France;Réalisée;1/8/2025;4/8/2025;3/9/2025;23/8/2025;TVA;Sales 4;Collaborateur 9;Active;Paid;2965;593;3558;1;1;0;0;38;7;245;0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
